@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Memories | A Little Scrapbook</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Demo entrance only: NOT real security -->
+  <div class="gate" id="gate">
+    <div class="gate-card">
+      <span class="stamp">FOR US ONLY ♡</span>
+      <div class="gate-heart">♥</div>
+
+      <p class="handwritten">A little place for our memories</p>
+      <h1>Our Little World</h1>
+      <p class="muted">A scrapbook full of moments with you.</p>
+
+      <label for="passcode">Our secret word</label>
+      <input id="passcode" type="password" placeholder="Type the demo word">
+
+      <button id="unlockBtn" class="button">
+        Open our scrapbook ✉
+      </button>
+
+      <p id="gateMessage" class="gate-message">
+        Demo word: rona15 
+      </p>
+
+      <p class="tiny-note">Preview only — not a secure login.</p>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <a href="#home" class="brand">our memories <span>♡</span></a>
+
+    <nav>
+      <a href="#photos">Photos</a>
+      <a href="#timeline">Our story</a>
+      <a href="#letters">Letters</a>
+      <a href="#music">Our song ♫</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section class="hero paper" id="home">
+      <span class="tape tape-left"></span>
+
+      <span class="tiny-label">A COLLECTION OF LITTLE THINGS</span>
+      <p class="handwritten hero-note">to my favorite person...</p>
+
+      <h1>Some memories<br>feel like <em>home.</em></h1>
+
+      <p class="hero-description">
+        Little moments, silly laughs, blurry pictures,
+        and a friendship I want to keep forever.
+      </p>
+
+      <a class="button" href="#photos">Open the album ↓</a>
+
+      <span class="doodle doodle-one">✳</span>
+      <span class="doodle doodle-two">♡</span>
+      <span class="tape tape-right"></span>
+    </section>
+
+    <!-- PHOTO ALBUM -->
+    <section class="section" id="photos">
+
+      <div class="section-heading">
+        <span class="tiny-label">THE PHOTO ALBUM</span>
+        <h2>Little moments, <em>big feelings.</em></h2>
+        <p>Every picture has a story.</p>
+      </div>
+
+      <div class="photo-grid">
+
+        <article class="polaroid tilt-left">
+          <img
+            src="images/WhatsApp Image 2026-10-18 at 8.16.47 PM (1).jpeg"
+            alt="Our first memory"
+            class="real-photo"
+            loading="lazy"
+          >
+          <p class="photo-caption">That one perfect day</p>
+          <p class="photo-date">12/4/2026</p>
+        </article>
+
+        <article class="polaroid tilt-right">
+          <img
+            src="images/WhatsApp Image 2026-10-18 at 8.16.47 PM.jpeg"
+            alt="Just us being us"
+            class="real-photo"
+            loading="lazy"
+          >
+          <p class="photo-caption">Just us being us</p>
+          <p class="photo-date">11/3/2026</p>
+        </article>
+
+        <article class="polaroid tilt-left">
+          <img
+            src="images/WhatsApp Image 2026-10-18 at 8.16.47 PM (3).jpeg"
+            alt="A day worth keeping"
+            class="real-photo"
+            loading="lazy"
+          >
+          <p class="photo-caption">A day worth keeping</p>
+          <p class="photo-date">1/7/2026</p>
+        </article>
+
+        <article class="polaroid tilt-right">
+          <img
+            src="images/WhatsApp Image 2026-10-18 at 8.16.47 PM (2).jpeg"
+            alt="My favorite memories"
+            class="real-photo"
+            loading="lazy"
+          >
+          <p class="photo-caption">My favorite memories</p>
+          <p class="photo-date">1/7/2026</p>
+        </article>
+
+      </div>
+
+      <p class="section-footnote">
+        ♡ Every picture keeps a little piece of our story.
+      </p>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="section story-section" id="timeline">
+
+      <div class="section-heading">
+        <span class="tiny-label">CHAPTERS OF US</span>
+        <h2>Our little <em>story.</em></h2>
+        <p>From the first hello to all the memories still waiting for us.</p>
+      </div>
+
+      <div class="timeline">
+
+        <article class="memory">
+          <span class="memory-dot">♡</span>
+          <div class="memory-card">
+            <span class="memory-date">CHAPTER 01 · ADD YOUR DATE</span>
+            <h3>The beginning</h3>
+            <p>
+              Write about how we first met and what you remember most.
+            </p>
+          </div>
+        </article>
+
+        <article class="memory">
+          <span class="memory-dot">✿</span>
+          <div class="memory-card">
+            <span class="memory-date">CHAPTER 02 · ADD YOUR DATE</span>
+            <h3>The day we couldn't stop laughing</h3>
+            <p>
+              That funny moment we could talk about a thousand times.
+            </p>
+          </div>
+        </article>
+
+        <article class="memory">
+          <span class="memory-dot">★</span>
+          <div class="memory-card">
+            <span class="memory-date">CHAPTER 03 · ADD YOUR DATE</span>
+            <h3>More memories to come</h3>
+            <p>
+              This story isn't finished. We're just getting started.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- LETTER -->
+    <section class="section letters-section" id="letters">
+
+      <div class="letter-paper">
+        <span class="tiny-label">A LETTER FOR YOU</span>
+
+        <h2>Dear <em>you,</em></h2>
+
+        <p class="handwritten letter-text">
+          If I could keep a little piece of every happy moment,
+          I'd keep the ones I spent with you.
+        </p>
+
+        <p class="letter-signature">With love, always ♡</p>
+
+        <div class="letter-divider">✦ ───── ♡ ───── ✦</div>
+
+        <p class="muted">
+          A little letter for someone who means a lot.
+        </p>
+      </div>
+    </section>
+
+    <!-- TIKTOK SONG -->
+    <section class="section music-section" id="music">
+
+      <div class="music-card">
+
+        <div class="music-icon">♫</div>
+
+        <div class="music-copy">
+          <span class="tiny-label">OUR LITTLE SOUNDTRACK</span>
+          <h2>One song, a thousand memories.</h2>
+          <p>
+            Some songs will always remind me of you. ♡
+          </p>
+        </div>
+
+        <a
+          class="button button-outline song-link"
+          href="https://www.tiktok.com/@jood_kh11/video/7047913125445700865"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Listen to our song ♫ ↗
+        </a>
+
+      </div>
+
+      <p class="section-footnote">
+        A little song for my favorite person ♡
+      </p>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p class="handwritten">Collected with love, kept forever ♡</p>
+    <p>OUR MEMORIES · A LITTLE SCRAPBOOK</p>
+  </footer>
+
+</body>
+</html>
